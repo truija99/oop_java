@@ -1,6 +1,7 @@
 public class Tervitus {
+//  omadused
     public  static String tervitusTekst;
-
+// meetodid
     public static void tervita() {
         System.out.println(tervitusTekst);
     }
