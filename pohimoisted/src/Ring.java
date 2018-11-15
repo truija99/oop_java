@@ -7,6 +7,11 @@ public class Ring {
         this.raadius =  0.0; //double tüüpi, sellepärast 2 0-i
     }
 
+
+    public Ring (Double r) {
+        this.raadius = r;
+    }
+
     public void pindala() {
         Double s = 3.14 * raadius * raadius;
         System.out.println(s);
