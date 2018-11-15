@@ -5,5 +5,4 @@ public class RingTest {
         Ring punaneRing = new Ring(2.7);
         punaneRing.pindala();
     }
-
 }
