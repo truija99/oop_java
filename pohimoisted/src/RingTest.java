@@ -4,4 +4,5 @@ public class RingTest {
         minuRing.raadius = 2.7;
         minuRing. pindala();
     }
+
 }

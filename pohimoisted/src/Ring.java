@@ -7,5 +7,4 @@ public class Ring {
         Double s = 3.14 * raadius * raadius;
         System.out.println(s);
     }
-
 }
