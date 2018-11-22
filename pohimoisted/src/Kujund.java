@@ -6,11 +6,16 @@ public class Kujund {
 
     // klassi konstruktor - võimaldab nimetuse pann, LOON
     public Kujund(String nimi) {
+        System.out.println("Kujund klassi konstruktor");
+        this.nimetus = nimi;
+    }
+//  setterid
+    public void setNimetus(String nimi) {
         this.nimetus = nimi;
     }
 
-    public void setNimetus(String nimi) {
-        this.nimetus = nimi;
+    public void setNurkadeOlemasolu(Boolean nurkadeOlemasolu) {
+        this.nurkadeOlemasolu = nurkadeOlemasolu;
     }
 
     // tüübi tegevused - klassi meetodid  -
