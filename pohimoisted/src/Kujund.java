@@ -1,11 +1,15 @@
 public class Kujund {
-    public String nimetus;
-    public Double pindala;
-    public Boolean nurkadeOlemasolu;
-    public Integer nurkadeArv;
+    private String nimetus;
+    private Double pindala;
+    private Boolean nurkadeOlemasolu;
+    private Integer nurkadeArv;
 
     // klassi konstruktor - võimaldab nimetuse pann, LOON
     public Kujund(String nimi) {
+        this.nimetus = nimi;
+    }
+
+    public void setNimetus(String nimi) {
         this.nimetus = nimi;
     }
 
