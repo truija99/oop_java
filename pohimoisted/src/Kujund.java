@@ -18,6 +18,10 @@ public class Kujund {
         this.nurkadeOlemasolu = nurkadeOlemasolu;
     }
 
+    public void setNurkadeArv(Integer nurkadeArv) {
+        this.nurkadeArv = nurkadeArv;
+    }
+
     // tüübi tegevused - klassi meetodid  -
     // panin paika, et tuleb void tüüpi meetod, mis lihtsalt väljustab sõna
     public void arvutaPindala() {
@@ -31,5 +35,24 @@ public class Kujund {
         this.arvutaPindala();
         System.out.println();
     }
+
+//      getterid
+
+
+    public String getNimetus() {
+        return nimetus;
+    }
+
+    public Boolean getNurkadeOlemasolu() {
+        return nurkadeOlemasolu;
+    }
+
+
+    public Integer getNurkadeArv() {
+        return nurkadeArv;
+    }
+
+
 }
+
 
