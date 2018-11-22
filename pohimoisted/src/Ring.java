@@ -23,3 +23,4 @@ public class Ring {
         System.out.println("Antud ringi pindala on " + Math.round(ringiPindala * 100)/100.0);
     }
 }
+
