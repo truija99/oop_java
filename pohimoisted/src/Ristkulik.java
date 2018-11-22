@@ -17,11 +17,11 @@ public class Ristkulik extends Kujund{
 
     //kustutasime siit override ära
     public void arvutaPindala(Boolean tapsus) {
-        System.out.println("Ristkülik klassi arvutaPindala() meetod");
+        System.out.println("Riistülik klassi arvutaPindala() meetod");
         this.setPindala(this.pikkus * this.laius);
         Double pindala = this.getPindala();
         if(tapsus) {
-            System.out.println("Pindala = " + this.getPindala());
+            System.out.println("Pindala = " + pindala);
         } else {
             System.out.println("Pindala = " + Math.round(pindala));
         }
