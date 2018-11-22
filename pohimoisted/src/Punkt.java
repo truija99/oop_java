@@ -8,6 +8,16 @@ public class Punkt {
         this.nimetus = nimetus;
         this.x = x;
         this.y = y;
+        this.setVeerand();
+    }
+
+
+    public Double getX() {
+        return x;
+    }
+
+    public Double getY() {
+        return y;
     }
 
     public void setVeerand() {
@@ -21,7 +31,8 @@ public class Punkt {
 
     //väljasta kirjeldus
     public void valjastaKirjeldus() {
-        System.out.println("Punkt " + this.nimetus + " koordinaatidega (" + this.x + ";" + this.y + ") asub ") + this.veerand + " .veerandil." ;
+        System.out.println("Punkt " + this.nimetus + " koordinaatidega (" + this.x + ";" + this.y + ") asub " + this.veerand + " .veerandil.") ;
+  //      System.out.println("Punkt " + this.nimetus + "asub " + this.veerand + " veerandil.");
     }
 }
 
