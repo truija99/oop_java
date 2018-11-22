@@ -1,6 +1,6 @@
 public class Kujund {
     private String nimetus;
-    private Double pindala;
+    private Double pindala;  //ainult setteriga saab private asjale ligipääsu
     private Boolean nurkadeOlemasolu;
     private Integer nurkadeArv;
 
@@ -52,7 +52,13 @@ public class Kujund {
         return nurkadeArv;
     }
 
+    public void setPindala(Double pindala) {
+        this.pindala = pindala;
+    }
 
+    public Double getPindala() {
+        return pindala;
+    }
 }
 
 
