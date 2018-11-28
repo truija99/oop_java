@@ -7,7 +7,8 @@ public class Magamistuba {
         Sein sein4 = new Sein("ida");
 
         Lagi lagi = new Lagi(3.5, "soe valge");
-        System.out.println("Kõrgus = " + lagi.getKorgus());
-        System.out.println("Värv = " + lagi.getVarv());
+
+        Voodi voodi = new Voodi("Mari-Liis", 60, 2, 4, 1);
+        voodi.voodiLoomine();
     }
 }
