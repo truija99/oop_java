@@ -10,5 +10,10 @@ public class Magamistuba {
 
         Voodi voodi = new Voodi("Mari-Liis", 60, 2, 4, 1);
         voodi.voodiLoomine();
+
+        Lamp lamp = new Lamp("Kati", true);
+        lamp.lulita(); //lülitasime sisse
+        System.out.println("Nüüd saab magada!");
+        lamp.lulita(); //lülitasime välja
     }
 }
