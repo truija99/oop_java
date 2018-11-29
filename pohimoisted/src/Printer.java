@@ -32,15 +32,30 @@ public class Printer {
         }
     }
 
-    public Integer prindi(Integer lehtedeArv){  //on olemas lehed, mida peame välja printima
+    public Integer prindi(Integer lehtedeArv) {  //on olemas lehed, mida peame välja printima
         Integer paberiKulu = lehtedeArv;
-        if(this.kahepoolne) {
+        if (this.kahepoolne) {          //peame lisama if lause veel
             paberiKulu = lehtedeArv / 2 + lehtedeArv % 2;
             System.out.println("kahepoolne printimine");
         }
-        this.paberPrintimiseks = this.paberPrintimiseks - paberiKulu;
-        return paberiKulu;    //vaja tagastada põhiprogrammile
+        if (paberiKulu > this.paberPrintimiseks) {
+            System.out.println("Printeris ei jätku paberit.");
+            System.out.println("Lisa " + (paberiKulu - this.paberPrintimiseks) + "paberit.");
+            return 0;
+        } else {
+            this.paberPrintimiseks = this.paberPrintimiseks - paberiKulu;
+            return paberiKulu;
+        }
     }
+
+    public Integer lisaPaber(Integer lehtedeArv){
+        if(lehtedeArv > 0 & lehtedeArv < 500) {
+            this.paberPrintimiseks = this.paberPrintimiseks + lehtedeArv;
+            System.out.println("Printerisse on lisatud " + lehtedeArv + " paberit");
+        }
+        return this.paberPrintimiseks;
+    }
+
 
     public Integer getPaberPrintimiseks() {  //aitab esile kutsuda???
         return paberPrintimiseks;
