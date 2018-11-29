@@ -4,7 +4,13 @@ public class Printer {
     private Boolean kahepoolne;
 
     public Printer(Integer tooneriTase, Boolean kahepoolne) {
-        this.tooneriTase = tooneriTase;
+        if(tooneriTase >= 0 & tooneriTase <= 100) {
+            this.tooneriTase = tooneriTase;  //pidime selle muutma ära, sest muidu läks tooneri tase üle 100
+        } else if(tooneriTase > 100){
+            this.tooneriTase = 100;
+        } else {
+            this.tooneriTase = 0;
+        }
         this.kahepoolne = kahepoolne;
         this.paberPrintimiseks = 100;
     }
