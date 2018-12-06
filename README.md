@@ -1,6 +1,6 @@
 # Objektorienteeritud programmeerimine ?V3
 ## Teemad
-* Objekti tuup, objekti omadused ja meetodid
+* Objekti tüüp, objekti omadused ja meetodid
 * Tuubi konstruktor (ilma ja parameetri[te]ga)
 * Klassi kirjelduste laiendamine pariluse abill
     * `extends` votmesona; kasutamine
