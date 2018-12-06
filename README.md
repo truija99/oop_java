@@ -3,13 +3,13 @@
 * Objekti tuup, objekti omadused ja meetodid
 * Tuubi konstruktor (ilma ja parameetri[te]ga)
 * Klassi kirjelduste laiendamine pariluse abill
-    * extends votmesona; kasutamine
-    * super votmesona kasutamine
+    * `extends` votmesona; kasutamine
+    * `super` votmesona kasutamine
 * Objekti loomine erinevatest komponentidest kompositsiooni abil
 * Objekti turvamine kapselduse abil
-    * public vs private
-    * getterid ja setterid
-    * @Override kasutamine
+    * `public` vs `private`
+    * `getterid` ja `setterid`
+    * ``@Override` kasutamine
 
 ## Tarkvara
 * [git](https://git-scm.com/download/win) - versioonihaldussusteemina (VCS)
