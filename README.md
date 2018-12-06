@@ -1,4 +1,4 @@
-# Objektorienteeritud programmeerimine ?V3
+# Objektorienteeritud programmeerimine ÕV3
 ## Teemad
 * Objekti tüüp, objekti omadused ja meetodid
 * Tüübi konstruktor (ilma ja parameetri[te]ga)
