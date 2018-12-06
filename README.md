@@ -9,7 +9,7 @@
 * Objekti turvamine kapselduse abil
     * `public` vs `private`
     * `getterid` ja `setterid`
-    * ``@Override` kasutamine
+    * `@Override` kasutamine
 
 ## Tarkvara
 * [git](https://git-scm.com/download/win) - versioonihaldussusteemina (VCS)
