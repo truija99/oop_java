@@ -1,10 +1,10 @@
 # Objektorienteeritud programmeerimine ?V3
 ## Teemad
 * Objekti tüüp, objekti omadused ja meetodid
-* Tuubi konstruktor (ilma ja parameetri[te]ga)
-* Klassi kirjelduste laiendamine pariluse abill
-    * `extends` votmesona; kasutamine
-    * `super` votmesona kasutamine
+* Tüübi konstruktor (ilma ja parameetri[te]ga)
+* Klassi kirjelduste laiendamine päriluse abil
+    * `extends` võtmesõna; kasutamine
+    * `super` võtmesõna kasutamine
 * Objekti loomine erinevatest komponentidest kompositsiooni abil
 * Objekti turvamine kapselduse abil
     * `public` vs `private`
