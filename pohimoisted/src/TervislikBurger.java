@@ -58,11 +58,13 @@ public class TervislikBurger {
     public void valiTervislikLisand4(String tervislikLisand4, Double tervislikLisand4Hind){
         System.out.println("See Burger4 on lisandiga " + this.tervislikLisand4 " ja maksab " + this.tervislikLisand4Hind + "eurot");
     }
+
     public void valiTervislikLisand5(String tervislikLisand5, Double tervislikLisand5Hind){
         System.out.println("See Burger4 on lisandiga " + this.tervislikLisand5 " ja maksab " + this.tervislikLisand5Hind + "eurot");
     }
+
     public void valiTervislikLisand6(String tervislikLisand6, Double tervislikLisand46ind){
-        System.out.println("See Burger4 on lisandiga " + this.6 " ja maksab " + this.tervislikLisand6Hind + "eurot");
+        System.out.println("See Burger4 on lisandiga " + this.tervislikLisand6 " ja maksab " + this.tervislikLisand6Hind + "eurot");
     }
 
 
